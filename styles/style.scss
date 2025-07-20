@@ -44,6 +44,12 @@ html {
   }
   &-nav {
     display: none;
+    a{
+      transition: color .3s ease-in-out;
+      &:hover{
+        color: #ec5863;
+      }
+    }
   }
   &-buttons {
     display: flex;
